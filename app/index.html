@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>bootstrap</title>
     <meta name="description" content="">
@@ -20,24 +21,118 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-    
-  </head>
-  <body>
+
+</head>
+
+<body>
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- sisältö alkaa -->
-    Tähän sit jotain.
+    <!--TODO
+    - BACKGROUND IMAGE
+    - CSS-HIOMISTA-->
+
+    <div class="container-fluid">
+
+        <nav class="navbar navbar">
+
+            <div class="container-fluid" id="taustakuva">
+                <div class="navbar-header" id="navbar">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar">
+
+                    <a class="navbar-brand" href="#"><b>Correctamundo!</b></a>
+                    <ul class="nav navbar-nav pull-right">
+
+                        <li><a href="#">Images</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">What's in the briefcase?
+          		<span class="caret"></span></a>
+                            <ul class="dropdown-menu" id="sticky-social">
+
+                                <li><a href="#" target="_blank"><span>Nothing</span></a></li>
+                                <li><a href="#" target="_blank"><span>Diamonds</span></a></li>
+                                <li><a href="#" target="_blank"><span>Marcellus Wallace's soul</span></a></li>
+                            </ul>
+                </div>
+
+                <div class="row" id="jumbo">
+                    <div class="container-fluid" id="jumbotron">
+
+                        <div class="jumbotron" id="jumbo">
+                            <div class="container">
+                                <h2 id="heading">I don't need you to tell me how fucking good my coffee is, okay? <i><b>I'm</b></i> the one who buys it. I know how good it is.</h2>
+                                <h4 id="heading">When Bonnie goes shopping she buys <i>SHIT!</i></h4>
+                                <button class="btn-default btn-lg pull-left">Mr. White</button>
+                                <button class="btn-primary btn-lg pull-left">Mr. Blue</button>
+                                <!--<img src="http://i3.cpcache.com/image/58880485_400x400.png-->
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="slogan">
+                <div class="col-md-4">
+                    <h3 class="text-center">From The Hateful Eight to My Best Friend's BirthDay </h3>
+                    <h4 class="text-center">Pick your favourite!</4>
+                    </div>
+                </div>
+                
+                
+                <div class="container">
+         <div class="row row-centered">      
+    <div class="col-md-6 col-centered" id="movies">
+            
+            <div class="row row-centered">
+                <div class="col-xs-4 col-centered">
+                    <h4>The Hatefull Eight (2015)</h4>
+                    <p>In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.</p>
+                </div>
+                <div class="col-xs-4 col-centered">
+                    <img src="http://www.cuttingedge.be/sites/default/files/styles/og_fb_image_style/public/The_Hateful_Eight_0.jpg?itok=SODKaZSR%22">
+                </div>
+            </div>
+
+            <hr></hr>
+
+            <div class="row row-centered">
+                <div class="col-xs-4 col-centered">
+                    <img src="http://a5.mzstatic.com/us/r1000/087/Music/v4/62/bf/bb/62bfbb2a-b4ea-86b0-a448-aa5000679f5d/UMG_cvrart_00602537278541_01_RGB72_1600x1600_12UMGIM64322.200x200-75.jpg">
+                </div>
+                <div class="col-xs-4 col-centered">
+                    <h4>Django Unchained (2012)</h4>
+                    <p>With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner</p>
+                </div>
+            </div>
+
+    </div>
+    </div>
+    </div>
+
+
+    </div>
+
     <!-- sisältö loppuu -->
-      
+
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
-    
+
     <!-- build:js(.) scripts/plugins.js -->
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
@@ -52,11 +147,12 @@
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
     <!-- endbuild -->
-    
+
 
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
 
-  </body>
+</body>
+
 </html>
